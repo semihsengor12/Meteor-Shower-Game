@@ -1,0 +1,164 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega32"</DEVICE>
+ <WORKING_DIR>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m32def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\Debug\AssemblerApplication2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>AssemblerApplication2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>AssemblerApplication2.map</FILE>
+  <FILE>AssemblerApplication2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <playerX><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>69</LINE></playerX>
+  <playerY><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>70</LINE></playerY>
+  <enemiesX><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>74</LINE></enemiesX>
+  <enemiesY><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>75</LINE></enemiesY>
+  <enemySpeedCount><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>76</LINE></enemySpeedCount>
+  <enemySpeedReset><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>77</LINE></enemySpeedReset>
+  <randomSeed><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>79</LINE></randomSeed>
+  <reset><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>93</LINE></reset>
+  <gameSpeed><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>123</LINE></gameSpeed>
+  <start><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>98</LINE></start>
+  <init_i2c><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>857</LINE></init_i2c>
+  <init_matrix><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1355</LINE></init_matrix>
+  <updateScoreMatrix><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>938</LINE></updateScoreMatrix>
+  <i2cDisable><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>867</LINE></i2cDisable>
+  <glcdPowerOnDelay><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1486</LINE></glcdPowerOnDelay>
+  <init_GLCD><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1269</LINE></init_GLCD>
+  <init_ADC><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1258</LINE></init_ADC>
+  <glcdClear><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1501</LINE></glcdClear>
+  <initBullet><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1005</LINE></initBullet>
+  <init_playerPosition><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1426</LINE></init_playerPosition>
+  <init_enemies><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1307</LINE></init_enemies>
+  <init_tickTimer><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1248</LINE></init_tickTimer>
+  <main><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>138</LINE></main>
+  <readTouchInput><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>375</LINE></readTouchInput>
+  <movePlayerPosition><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>338</LINE></movePlayerPosition>
+  <processBullet><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1022</LINE></processBullet>
+  <moveEnemies><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>631</LINE></moveEnemies>
+  <checkCollusion><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>795</LINE></checkCollusion>
+  <haltSystem><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>158</LINE></haltSystem>
+  <haltLoop><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>160</LINE></haltLoop>
+  <drawPlayer><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>182</LINE></drawPlayer>
+  <glcdGotoLocation><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1562</LINE></glcdGotoLocation>
+  <drawSpaceShip><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>190</LINE></drawSpaceShip>
+  <glcdDataWriteWrapping><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1602</LINE></glcdDataWriteWrapping>
+  <eraseSpaceShip><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>213</LINE></eraseSpaceShip>
+  <erasePlayer><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>223</LINE></erasePlayer>
+  <delayForGLCD><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1592</LINE></delayForGLCD>
+  <drawAsteroid><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>232</LINE></drawAsteroid>
+  <eraseAsteroid><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>246</LINE></eraseAsteroid>
+  <drawEnemy><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>255</LINE></drawEnemy>
+  <eraseEnemy><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>261</LINE></eraseEnemy>
+  <drawBullet><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>269</LINE></drawBullet>
+  <bulletX><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>996</LINE></bulletX>
+  <bulletY><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>997</LINE></bulletY>
+  <eraseBullet><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>295</LINE></eraseBullet>
+  <controlRight><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>341</LINE></controlRight>
+  <controlLeft><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>353</LINE></controlLeft>
+  <limitRight><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>364</LINE></limitRight>
+  <moveEnd><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>371</LINE></moveEnd>
+  <limitLeft><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>368</LINE></limitLeft>
+  <waitDiscard><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>410</LINE></waitDiscard>
+  <waitConversion><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>415</LINE></waitConversion>
+  <decideFlags><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>427</LINE></decideFlags>
+  <decideDone><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>440</LINE></decideDone>
+  <setLeftFlag><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>435</LINE></setLeftFlag>
+  <setRightFlag><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>438</LINE></setRightFlag>
+  <getRandomNumber><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>456</LINE></getRandomNumber>
+  <multiplication><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>488</LINE></multiplication>
+  <sub5><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>494</LINE></sub5>
+  <mulDone><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>503</LINE></mulDone>
+  <multipLoop><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>499</LINE></multipLoop>
+  <increaseDifficulty><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>512</LINE></increaseDifficulty>
+  <increaseDifficultyEnd><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>519</LINE></increaseDifficultyEnd>
+  <checkSafeToSpawn><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>540</LINE></checkSafeToSpawn>
+  <partnerPlus><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>555</LINE></partnerPlus>
+  <checkPartnerY><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>558</LINE></checkPartnerY>
+  <noCarryY><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>564</LINE></noCarryY>
+  <isSafe><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>575</LINE></isSafe>
+  <checkSafeEnd><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>578</LINE></checkSafeEnd>
+  <spawnSecondWave><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>588</LINE></spawnSecondWave>
+  <spawnLoop><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>604</LINE></spawnLoop>
+  <moveSucess><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>639</LINE></moveSucess>
+  <moveFailure><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>637</LINE></moveFailure>
+  <loopEnemies><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>649</LINE></loopEnemies>
+  <skipInactives><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>729</LINE></skipInactives>
+  <tryRespawn><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>675</LINE></tryRespawn>
+  <activateSecondWave><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>718</LINE></activateSecondWave>
+  <respawnEnemy><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>734</LINE></respawnEnemy>
+  <moveEnemiesEnd><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>776</LINE></moveEnemiesEnd>
+  <setReviveX><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>705</LINE></setReviveX>
+  <skip><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>778</LINE></skip>
+  <middleStep1><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>732</LINE></middleStep1>
+  <youWin><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>744</LINE></youWin>
+  <afterScore><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>748</LINE></afterScore>
+  <setRespawnOffset><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>767</LINE></setRespawnOffset>
+  <loopCollusion><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>805</LINE></loopCollusion>
+  <checkXdimension><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>811</LINE></checkXdimension>
+  <nextEnemy><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>825</LINE></nextEnemy>
+  <enemyOnTheRight><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>820</LINE></enemyOnTheRight>
+  <enemyOnTheLeft><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>815</LINE></enemyOnTheLeft>
+  <gameOver><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>831</LINE></gameOver>
+  <i2cStart><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>875</LINE></i2cStart>
+  <waitStart><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>878</LINE></waitStart>
+  <startOK><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>891</LINE></startOK>
+  <i2cStop><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>894</LINE></i2cStop>
+  <waitStop><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>897</LINE></waitStop>
+  <i2cWrite><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>903</LINE></i2cWrite>
+  <waitWrite><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>907</LINE></waitWrite>
+  <writeOK><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>920</LINE></writeOK>
+  <i2cSendPacket><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>923</LINE></i2cSendPacket>
+  <scoreLoop><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>969</LINE></scoreLoop>
+  <bulletActive><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>998</LINE></bulletActive>
+  <bulletSpeedCount><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>999</LINE></bulletSpeedCount>
+  <bulletCooldown><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1000</LINE></bulletCooldown>
+  <updateActiveBullet><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1061</LINE></updateActiveBullet>
+  <trySpawnBullet><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1042</LINE></trySpawnBullet>
+  <processBulletEnd><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1101</LINE></processBulletEnd>
+  <checkBulletHit><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1121</LINE></checkBulletHit>
+  <bulletHitSomething><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1097</LINE></bulletHitSomething>
+  <killBullet><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1107</LINE></killBullet>
+  <checkEnemyLoop><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1142</LINE></checkEnemyLoop>
+  <nextEnemyBullet><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1163</LINE></nextEnemyBullet>
+  <checkLeftOverlap><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1157</LINE></checkLeftOverlap>
+  <directHit><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1173</LINE></directHit>
+  <checkHitEnd><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1224</LINE></checkHitEnd>
+  <hitWin><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1180</LINE></hitWin>
+  <skipScoreUpdate><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1184</LINE></skipScoreUpdate>
+  <glcdSendCommand><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1531</LINE></glcdSendCommand>
+  <init_enemiesLoop><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1319</LINE></init_enemiesLoop>
+  <setOffset><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1328</LINE></setOffset>
+  <secondWaveY><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1339</LINE></secondWaveY>
+  <afterY><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1341</LINE></afterY>
+  <skipDraw><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1349</LINE></skipDraw>
+  <clearEnableLoop><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1396</LINE></clearEnableLoop>
+  <clearPWMLoop><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1411</LINE></clearPWMLoop>
+  <delayOuter><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1490</LINE></delayOuter>
+  <delayInner><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1492</LINE></delayInner>
+  <glcdClearLeft><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1505</LINE></glcdClearLeft>
+  <glcdClearRight><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1525</LINE></glcdClearRight>
+  <glcdPageLoop><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1509</LINE></glcdPageLoop>
+  <glcdColumnLoop><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1516</LINE></glcdColumnLoop>
+  <glcdSendData><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1547</LINE></glcdSendData>
+  <rightScreen><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1574</LINE></rightScreen>
+  <leftScreen><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1570</LINE></leftScreen>
+  <setAdress><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1578</LINE></setAdress>
+  <loopStart><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1594</LINE></loopStart>
+  <loopEnd><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1600</LINE></loopEnd>
+  <switchChipRight><FILE>C:\Users\Semih Eren Þengör\Desktop\documentedVersion\AssemblerApplication2\main.asm</FILE><LINE>1611</LINE></switchChipRight>
+ </LABELS>
+</ASSEMBLER_INFO>
